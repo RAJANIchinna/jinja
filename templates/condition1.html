@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>condition1</h1>
+        {% if age < 30 %}
+            {% if age < 15 %}
+            <h1>play childeren games</h1>
+            {% else %}
+            <h1>play lover games</h1>
+            {% endif %}
+        {% else %}
+            {% if age < 45 %}
+            <h1>play strategic games</h1>
+            {% else %}
+            <h1>watch devotional</h1>
+            {% endif %}
+        {% endif %}
+
+              
+
+    </center>
+    
+</body>
+</html>
